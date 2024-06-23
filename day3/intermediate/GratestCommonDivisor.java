@@ -38,10 +38,10 @@ public class GratestCommonDivisor {
         if(b==0){
             return a;
         }
-        if(a>b){
+        if(a>=b){
             return gcd(b,a%b);
         }
-        if(a<b){
+        if(a<=b){
             return gcd(a,b%a);
         }
         return 1;
