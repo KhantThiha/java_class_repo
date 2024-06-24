@@ -1,6 +1,6 @@
 ## Instances
 
-A **Class** can be refer as a template or blue-print of **Objects ** that developer will create for their need. A Class can have members such as variables, functions. Those are **instance members**. Their values will not be shared between different objects of the same class.
+A **Class** can be refer as a template or blue-print of **Objects** that developer will create for their need. A Class can have members such as variables, functions. Those are **instance members**. Their values will not be shared between different objects of the same class.
 
 ```java
 public class Car {
