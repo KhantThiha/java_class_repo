@@ -40,7 +40,7 @@ public class Person {
     private String LastName;
 
     public String getName() {
-        return firstName + " " + lastName;
+        return FirstName + " " + LastName;
     }
     public void setFirstName(String FirstName) {
         this.Firstname = Firstname;
