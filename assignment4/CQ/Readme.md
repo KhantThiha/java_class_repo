@@ -1,5 +1,5 @@
 [TOC]
-
+[toc]
 # Code Reusability
 
 **Inheritance** offer an ability to inherit parts of the members and method from **super class** to **sub class**. And thus, developers can access its members, including variables, methods, and constructors, without having to rewrite them. This make efficient, reduces redundancy in coding process.
