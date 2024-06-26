@@ -72,4 +72,22 @@ public class MyTime {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         return myTime.format(formatter);
     }
+    public String previousSecond(){
+        LocalTime myTime = LocalTime.of(hour, minute, second);
+        myTime = myTime.plusSeconds(-1); 
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        return myTime.format(formatter);
+    }
+    public String previousMinute(){
+        LocalTime myTime = LocalTime.of(hour, minute, second);
+        myTime = myTime.plusMinutes(-1); 
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        return myTime.format(formatter);
+    }
+    public String previousHour(){
+        LocalTime myTime = LocalTime.of(hour, minute, second);
+        myTime = myTime.plusHours(-1); 
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        return myTime.format(formatter);
+    }
 }
